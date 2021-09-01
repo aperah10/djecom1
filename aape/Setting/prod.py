@@ -5,7 +5,7 @@ with open(os.path.join(BASE_DIR,'secret.txt')) as f :
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['djecomfirst.herokuapp.com','aperahwork.herokuapp.com','127.0.0.1',]
+ALLOWED_HOSTS = ['djecomfirst.herokuapp.com','aperahwork.herokuapp.com',]
 
 INSTALLED_APPS += [
    'rest_framework',
